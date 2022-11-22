@@ -1,0 +1,4 @@
+load res/3x2.ppm base
+brighten 10 base brighter
+vertical-flip brighter vertical
+save path/path2/path3.ppm vertical

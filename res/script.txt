@@ -1,0 +1,13 @@
+load food.jpg food
+brighten 10 food food-brighter
+red-component food-brighter food-red-grayscale
+vertical-flip food-red-grayscale food-vertical
+blur food-vertical food-blurred
+sepia food-blurred food-sepia
+grayscale food-sepia food-g
+sharpen food-g food-sharpened
+save final_food.ppm food-sharpened
+save final_food.png food-sharpened
+save final_food.bmp food-sharpened
+save final_food.jpg food-sharpened
+save final_food.jpeg food-sharpened

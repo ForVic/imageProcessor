@@ -1,0 +1,32 @@
+The valid commands include:
+load
+brighten
+sepia
+sharpen
+grayscale
+blur
+red-component
+blue-component
+green-component
+value-component
+horizontal-flip
+vertical-flip
+intensity-component
+luma-component
+save
+
+The valid command-line argument commands include:
+-file
+
+If you want to use the command-line script:
+Run the jar file inside res with 'java -jar ImageProcessor.jar -file script.txt'
+That's the only script provided change the name of 'script.txt' to any other script and it will
+work with those as well.
+
+Using the program:
+You can only modify an image that you have already loaded, so that must always happen first
+as the program starts  with no images loaded. Also, you must use the correct name of a loaded image
+that you want to modify or save, you cannot use invalid names. Same with file destinations,
+they must match exactly what the file loaded you want to be, and you must save with one of the file
+extensions .bmp, .jpg, .jpeg, .png, .ppm. You cannot save something that hasn't been loaded or you
+haven't created while running the program.
